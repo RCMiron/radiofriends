@@ -1,25 +1,31 @@
 {
   "name": "radiofriends",
   "version": "1.0.0",
-  "description": "radio friends web app",
+  "description": "Radio Friends Web App",
   "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "deploy": "gcloud app deploy",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-
-  "author": "Radu Miron",
-  "license": "ISC",
-
   "dependencies": {
-    "express": "*"
+    "express":"*"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-browserify": "^0.5.1",
     "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-util": "^3.0.7"
-  }
+    "gulp-util": "^3.0.7",
+    "gulp-connect": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js",
+    "deploy":"gcloud app deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RCMiron/radiofriends.git"
+  },
+  "author": "Radu Miron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RCMiron/radiofriends/issues"
+  },
+  "homepage": "https://github.com/RCMiron/radiofriends#readme"
 }
