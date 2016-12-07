@@ -1,0 +1,25 @@
+{
+  "name": "radiofriends",
+  "version": "1.0.0",
+  "description": "radio friends web app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "deploy": "gcloud app deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "author": "Radu Miron",
+  "license": "ISC",
+
+  "dependencies": {
+    "express": "*"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-util": "^3.0.7"
+  }
+}
